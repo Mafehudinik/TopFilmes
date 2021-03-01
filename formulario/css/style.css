@@ -1,0 +1,109 @@
+body{
+    font-size: 16px;
+    font-family: Arial;
+    background: #430b0b;
+    margin: 0;
+    
+}
+
+.header{
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("../img/topo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-position: center; */
+    background-position-y: -5px;
+    color: #fff;
+	max-width: 100%;
+	padding: 2px;
+	height: 400px;
+}
+
+ul{
+    list-style-type: inherit;
+    padding: 2px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+}
+
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+footer{
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-shadow: 0px 0px 0px #ffffff;
+    position: relative;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 34%;
+}
+
+fieldset{
+    border: 0;
+    color: #ffffff;
+    margin-left: 8%;
+}
+
+input, select{
+    border-radius: 5px;
+    margin-left: -1%;
+}
+
+.campo{
+    margin-bottom: 1em;
+    margin-left: 25%;
+}
+
+.campo label{
+    margin-bottom: 0.6em;
+    color: #ffffff;
+    display: block;
+    margin-left: -23%;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select{
+    padding: 0.3em;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    margin-left: -23%;
+}
+
+.campo select option{
+    padding-right: 1em;
+    
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #ffffff;
+    border: 0;
+    margin-bottom: 1em;
+    color: #000;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
