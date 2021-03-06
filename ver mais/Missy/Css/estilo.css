@@ -3,7 +3,6 @@ body{
     font-family: Arial;
     background: #430b0b;
     margin: 0;
-    
 }
 
 .header{
@@ -41,26 +40,61 @@ li a{
     text-decoration: none;
 }
 
-footer{
-    position: relative;
+.rodape p{
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7px;
+    font-size: 9px;
+    text-align: center;
     text-shadow: 0px 0px 0px #ffffff;
-    
+    padding: 0;
+    margin: 1%;
+
 }
 
 .bloco{
-    margin-left: 5%;
+    background-position: center;
+    align-content: center;
 }
 
-p{
-    border-inline-end-width: 17%;
-    margin-right: 9%;
-    text-align: center;
+#missy{
+    margin: 3%;
+    padding: 0;
+    margin-top: 4%;
+}
+
+h1{
+    padding: 4%;
     color: #ffffff;
-    font-size: 20px;
-    font-family: sans-serif;
+    text-align: center;
+    margin: -44%;
+    font-size: 49px;
     
 }
 
+#genero{
+    color: #ffffff;
+    margin: 43%;
+    padding: -2%;
+    font-size: 18px;
+    text-align: justify;
+    margin-inline: 37%;
+}
+
+#ano{
+    color: #ffffff;
+    margin: 40%;
+    padding: -2%;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: -43%;
+    margin-inline: 37%;
+}
+
+#sobre{
+    color: #ffffff;
+    margin: -41%;
+    padding: 3%;
+    font-size: 17px;
+    text-align: justify;
+    margin-inline: 34%;
+}
