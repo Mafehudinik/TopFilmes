@@ -1,0 +1,92 @@
+body{
+    font-size: 16px;
+    font-family: Arial;
+    background: #180000;
+    margin: 0;
+}
+
+hr{
+    color: #000;
+}
+
+ul{
+    list-style-type: inherit;
+    padding: 2px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+}
+
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+h3{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: -2px -1px -2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: #240505;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+.header{
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("../img/topo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-position: center; */
+    background-position-y: -5px;
+    color: #fff;
+	max-width: 100%;
+	padding: 2px;
+	height: 400px;
+}
+
+.bloco{
+    text-align: center;
+    float: left;
+    display: -webkit-inline-flex;
+    font-size: 17px;
+    margin-left: 1%; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #180000;
+    margin: 11%;
+    padding: 3px;
+    text-shadow: 3px 5px 7px rgb(2, 11, 29);
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+p{
+    text-align: center;
+    margin: 2%;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-radius: 2%;
+    border-color: #220505;
+    font-size: 16px;
+}
+
+.rodape{
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-shadow: 0px 0px 0px #ffffff;
+    margin: 1%;
+}
