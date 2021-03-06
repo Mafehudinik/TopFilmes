@@ -42,12 +42,12 @@ li a{
 }
  
 footer{
-    text-align: center;
+    position: relative;
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
     text-shadow: 0px 0px 0px #ffffff;
-    position: relative;
+    text-align: center;
 }
 
 #titulo{
